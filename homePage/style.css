@@ -1,5 +1,5 @@
 #test{
-    color:#00ffff;
+    color: #00ff00;
 }
 .main{
     background-color: #ffffff;
@@ -10,11 +10,38 @@
 	left: 0;
     overflow-y: scroll;
 }
-.mainLine {
+.menu {
     height: 10%;
     width: 100%;
     background-color: #0000ff;
     position:static;
-    top: 1000px;
+    top: 0;
+    left: 0;
+}
+
+.presentPicture {
+    height: 50%;
+    width: 100%;
+    background-color: #ffff00;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+.recipesList {
+    height: 80%;
+    width: 100%;
+    background-color: #f00fff;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+.contacts {
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    position:static;
+    top: 0;
     left: 0;
 }
