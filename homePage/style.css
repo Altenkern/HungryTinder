@@ -16,10 +16,18 @@
     position: static;
     /* top: 0;
     left: 0; */
+
+    display:grid;
+  	grid-template-areas: "logo createServer bt3 bt4 bt5";
+    /* grid-template:auto;
+    grid-column:auto;
+    grid-row:auto; */
+    grid-gap:2px;
+    /* padding-bottom: 40px; */
 }
 
 .menu img{
-    width: 10%;
+    width: 30%;
     height: auto;
     margin-bottom: 0;
     display: block;
